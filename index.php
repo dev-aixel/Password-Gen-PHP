@@ -59,7 +59,7 @@
         <h1>パスワード生成</h1>
         <form method="POST">
             <label for="length">パスワードの長さ:</label>
-            <input type="number" name="length" id="length" min="6" max="20" required>
+            <input type="number" name="length" id="length" min="4" max="512" required>
             <br>
             <input type="checkbox" name="include_upper" id="include_upper">
             <label for="include_upper">大文字を含む</label>
